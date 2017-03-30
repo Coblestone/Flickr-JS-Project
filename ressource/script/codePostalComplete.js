@@ -11,7 +11,7 @@ $(document).ready(function() {
 		.autocomplete({
 			source: function(request, response) {
 				$.ajax({
-					url: 'http://infoweb-ens/~jacquin-c/codePostal/codePostalComplete.php',
+					url: 'http://infoweb/~e155859m/Projej%20web%20client/serveur/commune.php',
 					type: 'GET',
 					dataType: 'json',
 					data: 'commune=' + $('#commune').val() + '&maxRows=10',

@@ -1,29 +1,24 @@
 <html>
-<head>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<script type="text/javascript" src="script/flickr.js"></script>
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
-<script type="text/javascript" src="script/codePostalComplete.js"></script>
+    <head>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+        <script type="text/javascript" src="script/flickr.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="script/codePostalComplete.js"></script>
+    </head>
 
-</head>
-
-<body>
- <form id="form">
-    Afficher les photos de quelle commune ?</br>
-    <input id="commune" type="text" value=""></br>
-    <input id="soumettre" type="button" value="envoyez">
-    <!-- <select class="1-100" id="nb_photo" type="select" value="">
-        <script type="text/javascript">
-        $(function(){
-            var $select = $(".1-100");
-            for (i=1;i<=100;i++){
-                $select.append($('<option></option>').val(i).html(i))
-            }
-        </script>
-    </select> -->
-</form>
-<div id="images" style="height: 300px"></div>
-</body>
-
+    <body>
+        <form id="form">
+            Afficher les photos de quelle commune ?</br>
+            <input id="commune" type="text" value=""></br>
+            <input id="soumettre" type="button" value="Envoyer">
+            <select id="nb_photo" type="select" value="">
+                <option>5</option>
+                <option>10</option>
+                <option>15</option>
+                <option>20</option>
+            </select>
+        </form>
+        <div id="images" style="height: 300px"></div>
+    </body>
 </html>
